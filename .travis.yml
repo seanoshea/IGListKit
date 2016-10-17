@@ -43,3 +43,4 @@ after_success:
 - if [ $RUN_TESTS == "YES" ]; then
   ./script/coveralls.sh
   fi
+ 
